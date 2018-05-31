@@ -32,7 +32,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Questions based on snippets of code](#snippets)
 
 
-####[[↑]](#toc) <a name='general'>General Questions:</a>
+#### [[↑]](#toc) <a name='general'>General Questions:</a>
 
 * Why Functional Programming matters? When should a functional programming language be used?
 * What's the difference between design, architecture, functionality and aesthetic? Discuss.
@@ -50,7 +50,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How could you develop a reliable communication protocol based on a non-reliable one?
 * [Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "*I call it my billion-dollar mistake*" since it lead to "*innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years*". Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences could this have?
 
-####[[↑]](#toc) <a name='open'>Open Questions:</a>
+#### [[↑]](#toc) <a name='open'>Open Questions:</a>
 * Why do people resist change?
 * Explain threads to your grandmother
 * As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
@@ -76,7 +76,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why is it said that cryptography is not something you should try to invent or design yourself?
 
 
-####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
+#### [[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
 
 * Show with an example that global objects are evil.
 * Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
@@ -97,7 +97,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 
 
-####[[↑]](#toc) <a name='design'>Questions about Code Design:</a>
+#### [[↑]](#toc) <a name='design'>Questions about Code Design:</a>
 
 * What it the tests influence on design?
 * What's the difference between cohesion and coupling?
@@ -109,7 +109,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Pros and cons of holding domain logic in Stored Procedures.
 
 
-####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
+#### [[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 
 * Tell me the 3 worse defects of your preferred language
 * Why is there a rising interest about Functional Programming?
@@ -133,11 +133,11 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 
 
-####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
+#### [[↑]](#toc) <a name='web'>Questions about Web development:</a>
 * Why first-party cookies and third-party cookies are treated so differently?
 
 
-####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>
+#### [[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
 * How would you manage the migration of a project from MySQL to PostgreSQL?
 * Why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ``field``?
@@ -156,7 +156,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * In which case would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
 
 
-####[[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>
+#### [[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>
 
 * Why branching with Mercurial or git is easier than with SVN?
 * What are the pros and cons of Distributed Version Control Systems like git over Centralized ones like SVN?
@@ -166,7 +166,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 
 
-####[[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>
+#### [[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>
 
 * Why do we need Concurrency, anyway? Explain.
 * Why is testing multithreading / concurrent code so difficult?
@@ -175,7 +175,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is Process Starvation?
 * What is a Wait Free algorithm?
 
-####[[↑]](#toc) <a name='distributed'>Questions about Distributed Systems:</a>
+#### [[↑]](#toc) <a name='distributed'>Questions about Distributed Systems:</a>
 
 * How to test a distributed system?
 * In which case whould you apply asynchronously communication between two systems?
@@ -188,7 +188,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * When would you use Request/Reply and when Publish/Subscribe?
 
 
-####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
+#### [[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
 
 * What is agility?
 * How would you deal with Legacy Code?
@@ -204,7 +204,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What are the top 3 qualities you look for in colleagues, beyond their code?
 * What are the top 3 things you wish non-technical people knew about code?
 
-####[[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>
+#### [[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>
 
 * Make a FIFO Queue using only LIFO Stacks. Then build a LIFO Stack using only FIFO Queues.
 * Write a snippet of code affected by a Stack Overflow
@@ -221,7 +221,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Implement the `rnd()` function.
 
 
-####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
+#### [[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
 
 * When is a cache not useful or even dangerous?
 * Why does Event-Driven Architecture improve scalability?
@@ -247,7 +247,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 
 
-####[[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>
+#### [[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>
 * Why, in a SOA, long-lived transactions are discorauged and Sagas are suggested instead?
 * What are the differences between Soa and Microservices?
 * Let's talk about web services versioning, version compatibility and breaking changes.
@@ -256,11 +256,11 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What are the pros and cons of MicroService architecture?
 
 
-####[[↑]](#toc) <a name='security'>Questions about Security:</a>
+#### [[↑]](#toc) <a name='security'>Questions about Security:</a>
 * What's Two Factor Authentication? How would you implement it in an existing web application?
 
 
-####[[↑]](#toc) <a name='billgates'>Bill Gates Style Questions:</a>
+#### [[↑]](#toc) <a name='billgates'>Bill Gates Style Questions:</a>
 * What would happen if you put a mirror in a scanner?
 * Imagine there's a perfect clone of yourself. Imagine that that clone is your boss. Would you like to work for him/her?
 * Interview me
@@ -273,7 +273,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * If you could travel back in time, which advice would you give to your younger self?
 
 
-####[[↑]](#toc) <a name='snippets'>Questions about snippets of code:</a>
+#### [[↑]](#toc) <a name='snippets'>Questions about snippets of code:</a>
 * What's the output of this Javascript function?
 ```javascript
 function hookupevents() {
